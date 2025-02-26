@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "DEBUG=mediasoup:* node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "mediasoup": "^3.15.4",
+    "os": "^0.1.2",
+    "socketio": "^1.0.0",
+    "ws": "^8.18.1"
+  }
+}
