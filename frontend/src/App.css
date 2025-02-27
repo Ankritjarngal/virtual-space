@@ -1,0 +1,111 @@
+/* App.css */
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.status-display {
+  background-color: #030202;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.connect-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.call-button {
+  background-color: #2196F3;
+  color: white;
+}
+
+.end-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.call-active {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e6f7ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.audio-level-container {
+  margin-bottom: 15px;
+}
+
+.audio-level-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.audio-level-indicator {
+  width: 100%;
+  height: 24px;
+  background-color: #ddd;
+  border-radius: 12px;
+  margin: 0 auto 15px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.audio-level {
+  height: 100%;
+  background: linear-gradient(90deg, #2196F3, #03a9f4);
+  border-radius: 12px;
+  transition: width 0.1s ease-in-out;
+}
+
+@media (max-width: 640px) {
+  .app-container {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
